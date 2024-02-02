@@ -45,7 +45,10 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: const Center(
-        child: Text('Bottom Navigation Bar'),
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Text('Bottom Navigation Bar'),
+        ),
       ),
     );
   }
