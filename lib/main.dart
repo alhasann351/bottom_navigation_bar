@@ -44,6 +44,9 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
+      body: const Center(
+        child: Text('Bottom Navigation Bar'),
+      ),
     );
   }
 }
